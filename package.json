@@ -1,0 +1,10 @@
+{
+  "homepage": "https://wheredoyougetoff.github.io/meadheads4real",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  }
+}
