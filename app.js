@@ -1,3 +1,7 @@
+function loopTest() {
+  for (let i = 0; i < 5; i++) console.log("hi");
+}
+
 let intro = document.querySelector(".intro");
 let logo = document.querySelector(".logo-header");
 let logoSpan = document.querySelectorAll(".logo");
